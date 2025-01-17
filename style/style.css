@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+.fonts-family{
+        font-family: "Work Sans", serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+}
+/* shere css */
+
+.display-flex{
+        display: flex;
+}
+.dark-1{
+        color: #131313;
+}
+.logo{
+        font-size: 2.8rem;
+        font-weight: bold;
+}
+.bg-light{
+        background-color: rgba(255, 144, 14, 0.1);
+}
+.navbar{
+        justify-content: space-between;
+        align-items: center;
+}
+.nav-items{
+        list-style: none;
+}
+.nav-tiem{
+        gap: 30px;
+}
+.nav-links{
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 18px;
+        color: #424242;
+}
+.navbar, .banner{
+        max-width: 1440px;
+        margin: 0 auto;
+}
+/* banner-style */
+.banner-content{
+        max-width: 850px;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 50px;
+}
+.banner-title{
+        font-size: 4rem;
+        font-weight: 700;
+}
+.banner-description{
+        font-size: 16px;
+        color: #727272;
+        font-weight: 500;
+        margin-bottom: 32px;
+}
+.btn-primary{
+        background-color: #FF900E;
+        padding: 20px 24px;
+        border: none;
+        border-radius: 8px;
+        color: white;
+        font-size: 20px;
+        font-weight: 500;   
+
+}
+.banner-img{
+        width: 100%;
+}
+@media screen and (max-width: 576px) {
+        .navbar, .nav-tiem{
+                flex-direction: column;
+        }
+}
