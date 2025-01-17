@@ -70,8 +70,7 @@ main>section {
         font-size: 4rem;
         font-weight: 700;
 }
-
-.banner-description {
+.section-description {
         font-size: 16px;
         color: #727272;
         font-weight: 500;
@@ -96,9 +95,12 @@ main>section {
 
 .teams {
         align-items: center;
-        margin-left: 301px;
-        margin-right: 301px;
-        margin-bottom: 130px;
+        margin-left: 70px ;
+       
+}
+main{
+        max-width: 1440px;
+        margin: 0 auto;
 }
 
 .img-container {
@@ -112,7 +114,7 @@ main>section {
         max-width: 530px;
 }
 
-.features-title {
+.section-title {
         font-size: 2.8rem;
         font-weight: 700;
 
@@ -125,6 +127,51 @@ main>section {
 
 #features {
         color: #FF900E;
+}
+.section-container{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 100px;
+        margin-top: 100px;
+        margin-bottom: 180px;
+        
+        
+        
+}
+.container-item{
+        border: 1px solid #FF900E;
+        border-radius: 8px;
+        text-align: center;
+        height: 240px;
+        width: 240px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+        
+}
+.container-number{
+        font-size: 2.8rem;
+        font-weight: 600;
+        margin: 5px 10px;
+}
+.container-description{
+        font-size: 1.25rem;
+        font-weight: 600;
+        margin-top: 10px;
+        color: #727272;
+}
+.fact-description{
+        max-width: 540px;
+}
+.fact-title{
+        margin-bottom: 24px;
+}
+.sponspors{
+        text-align: center;
+}
+.sponspors-title{
+        margin-bottom: 24px;
 }
 
 @media screen and (max-width: 576px) {
