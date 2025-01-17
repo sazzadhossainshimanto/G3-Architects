@@ -173,6 +173,9 @@ main{
 .sponspors-title{
         margin-bottom: 24px;
 }
+.sponspors-desctiotion{
+        margin-bottom: 50px;
+}
 
 @media screen and (max-width: 576px) {
 
@@ -186,6 +189,17 @@ main{
         }
         .img-container {
                 grid-template-columns: repeat(1, 1fr);
+        }
+        .section-container{
+                grid-template-columns: repeat(2, 1fr);
+                gap: 5px;
+        }
+        .fact-description{
+                max-width: 540px;
+                margin: 10px;
+        }
+        .fact-title{
+                margin: 10px;
         }
 
        
@@ -201,6 +215,20 @@ main{
                 .our-featurs{
                         margin: 20px auto;
                 }
+                .section-container {
+                        grid-template-columns: repeat(2, 2fr);
+                        margin: 50px 180px;
                 
+                }
+
+                .fact-description {
+                        max-width: 540px;
+                        margin-left: 60px;
+                }
+
+                .fact-title {
+                        margin-left: 60px;
+                }
+
         
 }
